@@ -115,7 +115,7 @@ module.exports = function (karma) {
     browserNoActivityTimeout: 30000,
     browserDisconnectTolerance: 2,
     webpackMiddleware: {
-      noInfo: true,
+      noInfo: true
     }
   };
   if(process.env.BROWSERSTACK_USERNAME && process.env.BROWSERSTACK_ACCESS_KEY) {
